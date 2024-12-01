@@ -10,6 +10,8 @@ export default async function (req, res) {
    * there is a video where Jhonny burger (creator of Remotion)
    * showed us how, he was demonstrating of someone else channel
    * I think title was something like "Can we code video"
+   * 
+   * Got it, here's the link: https://www.youtube.com/watch?v=1MJdS1dII6Q
    */
   // Add CORS headers
   res.setHeader("Access-Control-Allow-Origin", "*");

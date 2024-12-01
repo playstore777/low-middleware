@@ -29,7 +29,7 @@ export default async function handler(req, res) {
         console.log(`Card '${cardIdShort}' moved to list '${listAfter}'`);
 
         // Perform your checks and actions here
-        if (listAfter === "Done" && isRelevantCard(cardIdShort)) {
+        if (listAfter === "Done with Testing" && isRelevantCard(cardIdShort)) {
           try {
             // Trigger GitHub Action, ensure it finishes before responding
             await triggerGitHubAction(action.data.card);
